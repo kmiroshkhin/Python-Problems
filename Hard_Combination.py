@@ -1,0 +1,13 @@
+"""
+Create a function that takes a variable number of groups of items, and returns the number of
+ways the items can be arranged, with one item from each group. Order does not matter.
+"""
+
+def combinations(*args):
+    combo=1
+    for i in args:
+        if i==0:
+            None
+        else:
+            combo *=i
+    return combo
